@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+## 💡 Inspiration
+- Academic piracy is said to be on the rise according to the Bookseller article.
+- On average, academic publishers ‘lose over 28% of their potential revenue to piracy’ (Jones, 2019) and with technology vastly developing and pirate search engines such as LibGen and SciHub thriving in this digital era, this number is only going to go up.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 What it does
+- PaperGram is a web based application , which is made  using blockchain technology(web 3.0) ,  to safeguard user publications in the research field.
+- We are using blockchain to create a secure and decentralized platform for researchers, who want to publish their research safely
 
-## Available Scripts
+## ⚙️ How we built it
+- React has been used as client end framework for the development of Papergram.
+- We developed the custom  smart contracts  utilising and deployed it on the Polygon Mumbai Test Net utilising  for its speed and scalability.
+- To keep the hashes of the paper pdf and its brochure, we utilised web3.storage.
+- We have stored research papers and paper boucher in web3 storage which is an IPFS
 
-In the project directory, you can run:
+## 🧠 Challenges we ran into
+- Writing smart contracts and deploying our project in the Polygon testnet were a couple of the challenges we faced
+- Finishing the project in the allotted time was a major hassle as we were planning to make it feature rich as possible with the limited time period.
 
-### `npm start`
+## 🚀 What's next for PaperGram
+- Enhanced paper recommendation system using Ml models from the favourites section.
+- Subscription models to benefit the creators who are the publishers with necessary profits.
+- Directly publish the papers from Locker which holds the paper securely making the process even more easier and efficient.
+- Collaboration with various publishing websites such as major journal publishing  companies can be a major game changer and make piracy stop once and for all.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🏅 Accomplishments that we're proud of
+- We're glad to sucessfully complete this project!
+- The end goal was met to a satisfactory level, and the outcome would allow everyone to be uploaded papers securely.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔨 How to run
+- Fork the repo
+- Clone repo to your local storage
+- Set up metamask
+- Run npm start
